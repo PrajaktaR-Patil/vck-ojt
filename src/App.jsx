@@ -21,22 +21,27 @@ import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 
 function App() {
   return (
-    <Router>
-      <Header />
-      
-      <main style={{ padding: '1rem' }}>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/apply" element={<AdmissionsPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-           <Route path="/courses" element={<CoursesPage/>} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
-      </main>
-      <ChatbotComponent/>
-      <Footer/>
-    </Router>
+   
+    <div>
+      <Router>   
+        <Header />
+
+        <main style={{ padding: '1rem', backgroundColor:"#52d2d2"}}>
+
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/apply" element={<AdmissionsPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/courses" element={<CoursesPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+
+        </main>
+        <ChatbotComponent />
+        <Footer />
+      </Router>
+    </div>
 
   );
 }

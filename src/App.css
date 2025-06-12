@@ -1,9 +1,9 @@
-
+/* 
 .body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: hsl(174, 26%, 93%);
+  background: hsl(180, 17%, 95%);
 }
 
 .header {
@@ -81,7 +81,7 @@ a{
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #eaf5f5;
+  background-color: #f6fafa;
 }
 
 
@@ -101,7 +101,7 @@ nav a {
 
 .container {
   max-width: 800px;
-  background: #ecf4f5
+  background: #eaecec
 ;
   margin: 20px auto;
   padding: 20px;
@@ -146,7 +146,7 @@ p, li {
     max-width: 400px;
     margin: auto;
     padding: 20px;
-    background: #f9f9f9;
+    background: #f2f5f5;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -163,3 +163,4 @@ input, textarea {
 textarea {
     resize: none;
 }
+ */
