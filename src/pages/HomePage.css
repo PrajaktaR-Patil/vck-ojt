@@ -3,7 +3,7 @@
   overflow-y: auto;
   overflow-x: visible;
   padding: 2rem;
-  width: 941.6px;
+  width: 1200.6px;
   height: 541px;
   border: 1px solid #000;
  justify-content: center; /* Center horizontally */
@@ -16,7 +16,7 @@
   font-family: Arial, sans-serif;
   color: #333;
 
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
  
 }
@@ -56,9 +56,9 @@ li {
   margin-bottom: 0.5rem;
 }
 
-.cta-button {
+.my-button {
   background-color: #28a745;
-  color: white;
+  color: black;
   padding: 0.5rem 1rem;       /* Smaller padding */
   font-size: 1rem;            /* Smaller text */
   border: none;
@@ -71,7 +71,7 @@ li {
 
 }
 
-.cta-button:hover {
+.my-button:hover {
   background-color: #218838;
 }
 
@@ -139,7 +139,9 @@ li {
   justify-content: center;
   gap: 1rem;
   margin: 2rem auto;
-  max-width: 900px;
+  max-width: 1000px;
+  background-image: url("paper,gif");
+  background-color: #cccc;
 }
 
 .gallery-image {
@@ -149,6 +151,8 @@ li {
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
+  background-image: url("paper,gif");
+  background-color: #cccc;
 }
 
 .gallery-image:hover {
@@ -160,4 +164,8 @@ li {
 }
 .button-wrapper {
   text-align: center;
+}
+
+.demo {
+  width: 1000px;
 }

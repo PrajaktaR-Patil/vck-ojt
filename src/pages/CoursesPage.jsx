@@ -18,36 +18,43 @@ const CoursesPage = () => {
 
      <h1>Academic Programs</h1>
 
-    <h2>Undergraduate Programs</h2>
-    <ul>
-        <li>BSc - Computer Science (3 years)</li>
-        <li>BSc - Information Technology (3 years)</li>
-        <li>BSc - Biotechnology (3 years)</li>
-        <li>BCom - Accounting & Finance (3 years)</li>
-        <li>BCom - Banking & Insurance (3 years)</li>
-        <li>BA - English Literature (3 years)</li>
-        <li>BA - Psychology (3 years)</li>
-    </ul>
-
-    <h2>Postgraduate Programs</h2>
-    <ul>
-        <li>MSc - Computer Science (2 years)</li>
-        <li>MSc - Information Technology (2 years)</li>
-        <li>MCom - Master of Commerce (2 years)</li>
-        <li>MA - Master of Arts (2 years)</li>
-    </ul>
-
-    <h3>Postgraduate Programs (PG)</h3>
-    <ul>
-      <li><strong>Master of Science (M.Sc.)</strong>
-        <ul>
-          <li>Computer Science (2 years)</li>
-          <li>Information Technology (2 years)</li>
-        </ul>
-      </li>
-      <li><strong>Master of Commerce (M.Com)</strong> (2 years)</li>
-      <li><strong>Master of Arts (M.A.)</strong> (2 years)</li>
-    </ul>
+<h1>Undergraduate Programs (UG)</h1>
+              <ul>
+                <li>Bachelor of Science (B.Sc.)</li>
+                <ul>
+                <li>Computer Science (3 years)</li>
+                <li>Information Technology (3 years)</li>
+                <li>Biotechnology (3 year)</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>Bachelor of Commerce (B.Com)</li>
+              <ul>
+                <li>Accounting & Finance (3 years)</li>
+                <li>Banking & Insurance (3 years)</li>
+            </ul>
+            </ul>
+            <ul>
+              <li>Bachelor of Arts (B.A.)</li>
+            <ul>
+                <li>English Literature (3 years)</li>
+                <li>Psychology (3 years)</li>
+            </ul>
+            </ul>
+           <h1>Postgraduate Programs (PG)</h1>
+            <ul>
+              <li>Master of Science (M.Sc.)</li>
+           <ul>
+              <li>Computer Science (2 years)</li>
+              <li>Information Technology (2 years)</li>
+          </ul> 
+          <ul>
+            <li>Master of Commerce (M.Com) (2 years)</li>
+          </ul>
+          <ul>
+            <li>Master of Arts (M.A.) (2 years)</li>
+          </ul>
+            </ul>
     <div class="container">
     <h2 class="custom-table-style">Program Details & Fee Structure (Annual)</h2>
   <table className="custom-table-style">
@@ -92,15 +99,11 @@ const CoursesPage = () => {
  <h5 class="note">
       Explore detailed syllabi and admission criteria on our Admissions page.
     </h5>
+    <h5 className='p'>Have questions about a specific course?</h5>
 
-    <a href='/contact'  class="cta-button">Enquire About Courses</a>
+    <a href='/contact'  className="cta-button">Enquire About Courses</a>
     
   </div>
-
-
-
-
-
 )
 }
 export default CoursesPage

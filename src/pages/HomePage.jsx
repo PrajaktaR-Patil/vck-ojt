@@ -5,16 +5,13 @@ import './HomePage.css';
 
 const HomePage = () => {
   const [showForm, setShowForm] = useState(false);
-
-  return (
+  return(
     <div className="home-scroll-container">
-      
-
       <div className="banner-container">
         <h1 className="home-title">Welcome to Vivekanand College!</h1>
         <p>Your journey to excellence starts here.</p>
         <div className="button-wrapper">
-        <a href="/apply" className="cta-button">Apply Now!</a>
+        <a href="/apply" className="my-button">Apply Now!</a>
         </div>
       </div>
         <p><strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in 1980, we have proudly served generations of students, empowering them to achieve their full potential.</p>
@@ -37,13 +34,14 @@ const HomePage = () => {
         </div>
         <p className="home-subtext">Ready to start your journey with us?</p>
         <div className="button-wrapper"> 
-        <a href="/apply" className="cta-button" onClick={() => setShowForm(true)}>Apply Now!</a>
+        <a href="/apply" className="my-button" onClick={() => setShowForm(true)}>Apply Now!</a>
         </div>
         {/* Future: Admission Form Component */}
         {/* {showForm && <AdmissionForm />} */}
       </div>
     </div>
+   
   );
 };
 
-export default HomePage;
+export default HomePage;
