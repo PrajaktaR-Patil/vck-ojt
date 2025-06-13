@@ -20,13 +20,27 @@ import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 
 
 function App() {
+  const [showPopup, setShowPopup] = useState(true);
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
   return (
    
+  
+    <>
     <div>
+        {/* Your main application content */}
+        <DeveloperInfoPopup
+          show={showPopup}
+          onClose={handleClosePopup}
+          studentName="Prajakta Patil"
+          studentPhotoUrl="\Images\praju.jpg" // Path to their photo
+          uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
+        />
+      </div>
       <Router>   
         <Header />
-
-        <main style={{ padding: '1rem', backgroundColor:"#52d2d2"}}>
+     <main style={{ padding: '1rem', backgroundColor:"#52d2d2"}}>
 
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -41,7 +55,7 @@ function App() {
         <ChatbotComponent />
         <Footer />
       </Router>
-    </div>
+    </>
 
   );
 }
