@@ -20,7 +20,7 @@ import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 import { useState } from 'react';
 
 import DeveloperInfoPopup from './components/DeveloperInfo/DeveloperInfoPopup';
-import Headers from './components/Header/Headers';
+
 
 
 
@@ -48,7 +48,6 @@ function App() {
      <main style={{ padding: '1rem', backgroundColor:"#52d2d2"}}>
 
           <Routes>
-            <Headers/>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/apply" element={<AdmissionsPage />} />
