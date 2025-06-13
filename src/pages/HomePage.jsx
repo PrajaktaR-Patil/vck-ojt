@@ -2,21 +2,16 @@ import React, { useState } from "react";
 import Header from "../components/Header/Headers";
 import Footer from "../components/Footer/Footers";
 import'./HomePage.css'
-import Headers from "../components/Header/Headers";
 import { Link } from "react-router-dom";
 const HomePage = () => {
   const [showForm, setShowForm] = useState(false);
   return(
-    
     <div className="home-scroll-container">
-      
       <div className="hero-section">
-       
         <img src="/Images/collegebanner.png" alt="college" className="hero-image" />
         <div className="hero-overlay">
            <h1 className="kk">Welcome to Vivekanand College!</h1>
         <p>Your journey to excellence starts here.</p>
-       
        <Link to="/apply" className="my-button">Apply Now!</Link>
       </div>
        </div>
@@ -35,16 +30,12 @@ const HomePage = () => {
           <img src="/Images/campus-life.jpg" alt="Campus View 2"className="gallery-image taller-image"/>
           <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
         <p className="home-subtext">Ready to start your journey with us?</p>
-        <div className="button-wrapper"> 
-        <Link to="/courses" className="my-button">Explore Courses!</Link>
+        <div className="button-wrapper">
+        <Link to="/courses" className="my-button">Exoplore courses!</Link>
         {/* Future: Admission Form Component */}
         {/* {showForm && <AdmissionForm />} */}
       </div>
-      
     </div>
-   
-   
   );
 };
-
-export default HomePage;
+export default HomePage;
