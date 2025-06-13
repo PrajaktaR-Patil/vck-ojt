@@ -2,10 +2,12 @@ import React from 'react';
 import Header from '../components/Header/Headers';
 import Footer from "../components/Footer/Footers";
 import './CoursesPage.css'
+import Headers from '../components/Header/Headers';
 const CoursesPage = () => { 
     return(
   
   <div style={{ padding: '1rem' }} className="home-scroll-container">
+    <Headers/>
    
     <h1 className='h1'>Our Academic Programs</h1>
     <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
@@ -102,6 +104,7 @@ const CoursesPage = () => {
     <h5 className='p'>Have questions about a specific course?</h5>
 
     <a href='/contact'><h3 className='cta-button'> About Courses</h3 ></a>
+    <Footer/>
    </div>
 )
 }

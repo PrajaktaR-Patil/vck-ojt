@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import Header from "../components/Header/Headers";
 import Footer from "../components/Footer/Footers";
 import'./HomePage.css'
+import Headers from "../components/Header/Headers";
 
 const HomePage = () => {
   const [showForm, setShowForm] = useState(false);
   return(
     
     <div className="home-scroll-container">
+      <Headers/>
       <div className="hero-section">
        
         <img src="/Images/collegebanner.png" alt="college" className="hero-image" />
@@ -38,6 +40,7 @@ const HomePage = () => {
         {/* Future: Admission Form Component */}
         {/* {showForm && <AdmissionForm />} */}
       </div>
+      <Footer/>
     </div>
    
    
