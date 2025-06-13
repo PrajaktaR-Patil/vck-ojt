@@ -101,9 +101,8 @@ const CoursesPage = () => {
     </h5>
     <h5 className='p'>Have questions about a specific course?</h5>
 
-    <a href='/contact'  className="cta-button">Enquire About Courses</a>
-    
-  </div>
+    <a href='/contact'><h3 className='cta-button'> About Courses</h3 ></a>
+   </div>
 )
 }
 export default CoursesPage
