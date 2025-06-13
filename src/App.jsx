@@ -17,6 +17,10 @@ import Header from './components/Header/Headers';
 //Footer
 import Footer from "./components/Footer/Footers";
 import ChatbotComponent from './components/Chatbot/ChatbotComponents';
+import { useState } from 'react';
+
+import DeveloperInfoPopup from './components/DeveloperInfo/DeveloperInfoPopup';
+
 
 
 function App() {

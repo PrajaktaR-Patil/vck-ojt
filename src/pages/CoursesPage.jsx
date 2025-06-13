@@ -105,4 +105,4 @@ const CoursesPage = () => {
    </div>
 )
 }
-export default CoursesPage
+export default CoursesPage;
