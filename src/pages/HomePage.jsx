@@ -17,7 +17,7 @@ const HomePage = () => {
            <h1 className="kk">Welcome to Vivekanand College!</h1>
         <p>Your journey to excellence starts here.</p>
        
-       <a href="/apply" className="my-button">Apply Now!</a>
+       <Link to="/apply" className="my-button">Apply Now!</Link>
       </div>
        </div>
         <p><strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in 1980, we have proudly served generations of students, empowering them to achieve their full potential.</p>
